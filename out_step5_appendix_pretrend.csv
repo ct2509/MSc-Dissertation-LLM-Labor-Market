@@ -1,0 +1,9 @@
+outcome_label,dimension,tested_pre_years,reference_year,joint_pretrend_p_value,occupation_clusters
+Occupational employment,HEHC_minus_HELC,"2019,2021",2022,0.0314514292425057,498
+Occupational employment,complementarity,"2019,2021",2022,0.0007546337362629,498
+Occupational employment,exposure,"2019,2021",2022,0.5368865288658228,498
+Occupational employment,interaction,"2019,2021",2022,0.0530056939723148,498
+Real annual wage income,HEHC_minus_HELC,"2019,2021",2022,0.1540681651940372,498
+Real annual wage income,complementarity,"2019,2021",2022,0.0006592788462657,498
+Real annual wage income,exposure,"2019,2021",2022,0.4783018793758042,498
+Real annual wage income,interaction,"2019,2021",2022,0.8557796830782692,498

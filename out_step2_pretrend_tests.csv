@@ -1,0 +1,17 @@
+model,fe_type,outcome,dimension,tested_pre_years,reference_year,joint_pretrend_p_value,occupation_clusters
+wage_basic_continuous_event_study,basic,mean_log_real_wage_2024,exposure,"2019,2021",2022,0.00012593913186386124,498
+wage_basic_continuous_event_study,basic,mean_log_real_wage_2024,complementarity,"2019,2021",2022,7.424545062952233e-09,498
+wage_basic_continuous_event_study,basic,mean_log_real_wage_2024,interaction,"2019,2021",2022,0.29069295083499885,498
+wage_basic_category_event_study,basic,mean_log_real_wage_2024,HEHC_minus_HELC,"2019,2021",2022,0.0003590796838619251,498
+employment_basic_continuous_event_study,basic,log_employment,exposure,"2019,2021",2022,8.229964699220374e-08,498
+employment_basic_continuous_event_study,basic,log_employment,complementarity,"2019,2021",2022,4.118204937411829e-08,498
+employment_basic_continuous_event_study,basic,log_employment,interaction,"2019,2021",2022,0.03201183826499411,498
+employment_basic_category_event_study,basic,log_employment,HEHC_minus_HELC,"2019,2021",2022,0.0023325061142184527,498
+wage_soc_year_continuous_event_study,soc_year,mean_log_real_wage_2024,exposure,"2019,2021",2022,0.47830187937580426,498
+wage_soc_year_continuous_event_study,soc_year,mean_log_real_wage_2024,complementarity,"2019,2021",2022,0.0006592788462657674,498
+wage_soc_year_continuous_event_study,soc_year,mean_log_real_wage_2024,interaction,"2019,2021",2022,0.8557796830782692,498
+wage_soc_year_category_event_study,soc_year,mean_log_real_wage_2024,HEHC_minus_HELC,"2019,2021",2022,0.1540681651940372,498
+employment_soc_year_continuous_event_study,soc_year,log_employment,exposure,"2019,2021",2022,0.5368865288658228,498
+employment_soc_year_continuous_event_study,soc_year,log_employment,complementarity,"2019,2021",2022,0.0007546337362629573,498
+employment_soc_year_continuous_event_study,soc_year,log_employment,interaction,"2019,2021",2022,0.053005693972314825,498
+employment_soc_year_category_event_study,soc_year,log_employment,HEHC_minus_HELC,"2019,2021",2022,0.031451429242505775,498

@@ -1,0 +1,3 @@
+classification_rule,measure,cutoff,reference_year
+Overall occupation median,llm_exposure_main,0.2784050179211469,2022
+Median within high-exposure occupations,complementarity_theta,0.6130555555555557,2022

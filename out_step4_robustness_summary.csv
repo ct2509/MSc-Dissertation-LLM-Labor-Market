@@ -1,0 +1,4 @@
+robustness,robustness_label,exposure_variable,complementarity_variable,occupation_clusters,analysis_years,reference_year
+model_rated_exposure,GPT/model-rated exposure,llm_exposure_model_robustness,complementarity_theta,498,"2022, 2023, 2024",2022
+no_jobzone_complementarity,Complementarity excluding Job Zones,llm_exposure_main,complementarity_no_jobzone,498,"2022, 2023, 2024",2022
+oews_weighted_mapping,OEWS-employment-weighted mapping,llm_exposure_main_oews_weighted,complementarity_theta_oews_weighted,497,"2022, 2023, 2024",2022

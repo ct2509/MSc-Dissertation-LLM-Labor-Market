@@ -1,0 +1,106 @@
+STEP 5 OUTPUT GUIDE
+
+MAIN TEXT
+
+Figure 1:
+  out_step5_exposure_complementarity_map.png
+  Purpose: Descriptive two-dimensional map of LLM exposure and
+  occupational complementarity.
+  Bubble size reflects 2022 occupational employment.
+
+Descriptive tables:
+  out_step5_score_summary.csv
+  out_step5_category_summary.csv
+  out_step5_representative_occupations.csv
+  Purpose: Occupation-score distribution, category composition and
+  representative occupations.
+
+Preferred regression results:
+  out_step5_main_results_formatted.csv
+  out_step5_main_results_formatted.tex
+  Purpose: Final 2022-2024 preferred estimates from Step 3.
+
+Joint tests:
+  out_step5_joint_tests_formatted.csv
+  Purpose: Joint 2023/2024 tests from Step 3.
+
+Robustness to alternative measures:
+  out_step5_alternative_measure_robustness.csv
+  Purpose: Compact pooled results using GPT/model-rated exposure,
+  complementarity excluding Job Zones, and OEWS-employment-weighted mapping.
+
+Specification sensitivity:
+  out_step5_specification_sensitivity.csv
+  Purpose: Compare occupation+year FE with the preferred model that also
+  allows SOC major groups to follow different annual paths.
+
+APPENDIX / SUPPORTING OUTPUTS
+
+Figure A1:
+  out_step5_M_vs_exposure.png
+  Purpose: Shows the close descriptive relationship between M and Exposure.
+
+Pre-period trend diagnostics:
+  out_step5_appendix_pretrend.csv
+
+Original M-index robustness:
+  out_step5_appendix_M_robustness.csv
+
+Alternative-measure dynamic estimates:
+  out_step5_appendix_alternative_measure_dynamic.csv
+
+Alternative-measure joint tests:
+  out_step5_appendix_alternative_measure_joint_tests.csv
+
+Existing Step-2 event-study figures:
+  Place in the appendix, not as the preferred short-window estimates.
+
+PREFERRED EMPIRICAL SPECIFICATION
+
+  Sample: 2022, 2023 and 2024
+  Reference year: 2022
+  Fixed effects:
+    - occupation
+    - year
+    - SOC-major-group-specific year deviations, normalized relative to a
+      reference SOC major group and 2022 to avoid redundant indicators
+  Standard errors: clustered by occupation
+  Wage weighting: fixed 2022 baseline wage weight
+  Employment models: unweighted
+
+PREFERRED CATEGORY DEFINITION
+
+  LE:
+    Exposure below the overall occupation median.
+
+  HELC:
+    Exposure at or above the overall occupation median and
+    complementarity below the median among high-exposure occupations.
+
+  HEHC:
+    Exposure at or above the overall occupation median and
+    complementarity at or above the median among high-exposure occupations.
+
+PREFERRED CATEGORY COMPOSITION
+
+  - LE: 249 occupations; 40.2% of 2022 matched employment
+  - HELC: 124 occupations; 28.0% of 2022 matched employment
+  - HEHC: 125 occupations; 31.8% of 2022 matched employment
+
+ALTERNATIVE-MEASURE COVERAGE NOTE
+
+  GPT/model-rated exposure robustness: 498 occupations.
+  No-Job-Zone complementarity robustness: 498 occupations.
+  OEWS-employment-weighted mapping robustness: 497 occupations because one
+  ACS occupation lacks the required OEWS employment weights.
+
+WAGE VARIABLE NOTE
+
+  Category wages use 2022 observations expressed in constant 2024 USD.
+  They must be described as:
+  "2022 employment-weighted mean real annual wage income (2024 USD)."
+
+INTERPRETATION RULE
+
+  Statistical insignificance must be described as a lack of robust evidence,
+  not as proof that the true effect is exactly zero.

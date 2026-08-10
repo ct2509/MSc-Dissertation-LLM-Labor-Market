@@ -1,0 +1,19 @@
+robustness,robustness_label,outcome_label,dimension,test_statistic,p_value,q_value_bh
+model_rated_exposure,GPT/model-rated exposure,Real annual wage income,Exposure 2023 and 2024,0.2919573474325656,0.7469283806479927,0.7469283806479927
+model_rated_exposure,GPT/model-rated exposure,Real annual wage income,Complementarity 2023 and 2024,0.3361328685191427,0.7146904702971419,0.7469283806479927
+model_rated_exposure,GPT/model-rated exposure,Real annual wage income,Interaction 2023 and 2024,0.7150726117295649,0.4896591459253772,0.7469283806479927
+model_rated_exposure,GPT/model-rated exposure,Occupational employment,Exposure 2023 and 2024,0.6494264593949075,0.5227879565551873,0.6309527026975779
+model_rated_exposure,GPT/model-rated exposure,Occupational employment,Complementarity 2023 and 2024,0.4609513648379497,0.6309527026975779,0.6309527026975779
+model_rated_exposure,GPT/model-rated exposure,Occupational employment,Interaction 2023 and 2024,1.2364522960451294,0.2913044389391838,0.6309527026975779
+no_jobzone_complementarity,Complementarity excluding Job Zones,Real annual wage income,Exposure 2023 and 2024,1.3700902252601794,0.2550419864574572,0.6109973159462456
+no_jobzone_complementarity,Complementarity excluding Job Zones,Real annual wage income,Complementarity 2023 and 2024,0.4931513988777654,0.6109973159462456,0.6109973159462456
+no_jobzone_complementarity,Complementarity excluding Job Zones,Real annual wage income,Interaction 2023 and 2024,0.8217789155716714,0.4402453429417348,0.6109973159462456
+no_jobzone_complementarity,Complementarity excluding Job Zones,Occupational employment,Exposure 2023 and 2024,1.0942648320814252,0.3355908414397059,0.6186790658082061
+no_jobzone_complementarity,Complementarity excluding Job Zones,Occupational employment,Complementarity 2023 and 2024,0.2312057682435182,0.7936614632554658,0.7936614632554658
+no_jobzone_complementarity,Complementarity excluding Job Zones,Occupational employment,Interaction 2023 and 2024,0.8872137605378638,0.412452710538804,0.6186790658082061
+oews_weighted_mapping,OEWS-employment-weighted mapping,Real annual wage income,Exposure 2023 and 2024,1.1993287014405924,0.3022689670203988,0.733110817110262
+oews_weighted_mapping,OEWS-employment-weighted mapping,Real annual wage income,Complementarity 2023 and 2024,0.7169578685851246,0.4887405447401746,0.733110817110262
+oews_weighted_mapping,OEWS-employment-weighted mapping,Real annual wage income,Interaction 2023 and 2024,0.130541607480361,0.8776501190329146,0.8776501190329146
+oews_weighted_mapping,OEWS-employment-weighted mapping,Occupational employment,Exposure 2023 and 2024,0.9719773271146112,0.3790536331401134,0.5685804497101702
+oews_weighted_mapping,OEWS-employment-weighted mapping,Occupational employment,Complementarity 2023 and 2024,0.563141153555069,0.5697812584470489,0.5697812584470489
+oews_weighted_mapping,OEWS-employment-weighted mapping,Occupational employment,Interaction 2023 and 2024,1.456998360722174,0.2339295862502793,0.5685804497101702
